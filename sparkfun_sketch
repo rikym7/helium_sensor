@@ -8,6 +8,8 @@
 #include <hal/hal.h>
 #include <SPI.h>
 
+#define ADR_MODE 0 //Adaptive Data Rate: 1 = on, 0 = off
+
 // This EUI must be in little-endian format, so least-significant-byte
 // first. When copying an EUI from ttnctl output, this means to reverse
 // the bytes. For TTN issued EUIs the last bytes should be 0xD5, 0xB3,
